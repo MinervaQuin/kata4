@@ -2,8 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package kata3;
+package kata3.view;
 
+import kata3.model.Histogram;
 import java.awt.Dimension;
 import javax.swing.JPanel;
 import org.jfree.chart.ChartFactory;
@@ -17,7 +18,7 @@ import org.jfree.ui.ApplicationFrame;
  *
  * @author Minerva
  */
-class HistogramDisplay extends ApplicationFrame{
+public class HistogramDisplay extends ApplicationFrame{
 
     private final Histogram<String> histogram;
     
